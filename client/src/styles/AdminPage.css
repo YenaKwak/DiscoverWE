@@ -1,0 +1,117 @@
+.admin-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Contenuto amministrativo */
+.admin-content {
+  width: 100%;
+  max-width: 1500px;
+  text-align: center;
+}
+
+.admin-content h2,
+.admin-content h3 {
+  margin: 20px 0;
+}
+
+.admin-content table {
+  margin: 20px 0;
+  width: 100%;
+}
+
+.alert {
+  margin: 20px 0;
+}
+
+/* Stili per le colonne della tabella */
+.table-image {
+  width: 100px;
+  text-align: center;
+}
+
+.table-title {
+  width: 150px;
+  text-align: center;
+}
+
+.table-description {
+  width: 300px;
+  text-align: center;
+}
+
+.table-price {
+  width: 50px;
+  text-align: center;
+}
+
+.table-location {
+  width: 50px;
+  text-align: center;
+}
+
+.table-tags {
+  width: 200px;
+  text-align: center;
+}
+
+.table-actions {
+  width: 100px;
+  text-align: center;
+}
+
+/* Contenitore dell'immagine della carta */
+.card-img-container {
+  height: 200px;
+  overflow: hidden;
+}
+
+/* Corpo della carta */
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-body .btn {
+  margin: 5px 0;
+}
+
+/* Stili per le immagini e i pulsanti del profilo */
+.profile_card_img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.profile_card_body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile_card_buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-group-item {
+  text-align: center;
+}
+
+.table-image-container {
+  height: 150px;
+}
+
+/* Stili per il modulo del nuovo tour */
+.add-new-tour-form .form-group {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.add-new-tour-form .center-button {
+  display: block;
+  margin: 20px auto 0;
+}

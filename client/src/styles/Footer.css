@@ -1,0 +1,27 @@
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-text {
+  flex: 1;
+  text-align: center;
+}
+
+.admin-button {
+  margin-left: auto;
+}
+
+/* Stili responsive */
+@media (max-width: 991.98px) {
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .admin-button {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}

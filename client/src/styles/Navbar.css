@@ -1,0 +1,32 @@
+/* Pulsante di login */
+.login-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: none;
+}
+
+.login-button .login-text {
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+.login-link {
+  text-decoration: none;
+}
+
+/* Stili per il dropdown */
+#dropdown-basic-navbar svg,
+.dropdown-toggle::after {
+  color: green;
+}
+
+/* Media Queries */
+@media (max-width: 992px) {
+  .dropdown-menu-right {
+    left: auto !important;
+    right: 0 !important;
+  }
+}

@@ -1,0 +1,42 @@
+.admin-login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: calc(100vh - 60px);
+  padding: 20px;
+}
+
+/* Etichetta del modulo di login */
+.admin-login-container label {
+  padding: 0;
+  margin: 10px;
+}
+
+/* Box di login amministrativo */
+.admin-login-box {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+/* Pulsante di login personalizzato */
+.custom-login-button {
+  background-color: #0f592087;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  font-size: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+/* Stile del pulsante di login personalizzato al passaggio del mouse */
+.custom-login-button:hover {
+  background-color: #0b3b16;
+}

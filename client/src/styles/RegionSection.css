@@ -1,0 +1,103 @@
+/* Stili per il titolo della sezione regione */
+.marketing-title {
+  color: rgba(0, 0, 0, 0.679);
+}
+
+/* Stili per la carta della regione */
+.region-card {
+  position: relative;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  margin: 15px;
+}
+
+.region-card:hover {
+  transform: scale(1.05);
+}
+
+/* Contenitore dell'immagine nella carta della regione */
+.image-container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.region-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Sovrapposizione scura sopra l'immagine */
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Testo all'interno della sovrapposizione */
+.text {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
+
+/* Media Queries per diverse dimensioni dello schermo */
+@media (max-width: 1200px) {
+  .image-container {
+    width: 250px;
+    height: 250px;
+  }
+
+  .text {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .image-container {
+    width: 220px;
+    height: 220px;
+  }
+
+  .text {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .image-container {
+    width: 180px;
+    height: 180px;
+  }
+
+  .text {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .image-container {
+    width: 150px;
+    height: 150px;
+  }
+
+  .text {
+    font-size: 14px;
+  }
+}

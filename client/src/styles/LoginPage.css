@@ -1,0 +1,70 @@
+/* Container */
+.login-page-container {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: black;
+}
+
+/* Header */
+.login-header {
+  margin-bottom: 20px;
+}
+
+.login-header h1,
+.login-header p,
+.login-header a,
+.login-header button {
+  color: black;
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+}
+
+/* Form */
+.login-form .form-control {
+  margin-bottom: 15px;
+}
+
+/* Pulsante di Google */
+.btn-google {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  color: rgb(220, 74, 61);
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(220, 74, 61);
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+}
+
+.btn-google:hover {
+  background: rgb(220, 74, 61);
+  color: white;
+}
+
+.btn-google span {
+  color: rgb(220, 74, 61);
+  margin-left: 10px;
+  transition: all 0.3s ease;
+}
+
+.btn-google:hover span {
+  color: white;
+}
+
+/* Testo sottolineato */
+.underlined-text {
+  text-decoration: underline;
+}

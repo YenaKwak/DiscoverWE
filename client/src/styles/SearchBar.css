@@ -1,0 +1,44 @@
+/* Stili per la barra di ricerca nel contenitore del carosello */
+.carousel-container .search-bar {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 30px;
+  padding: 5px 10px;
+  z-index: 20;
+  max-width: 400px;
+  margin: 0 auto;
+  transition: border 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.carousel-container .search-bar:hover {
+  border: 2px solid #008000;
+}
+
+.carousel-container .search-bar input {
+  border: none;
+  outline: none;
+  flex: 1;
+  padding: 5px 10px;
+  box-shadow: none;
+}
+
+.carousel-container .search-bar button {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background-color: #008000;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.carousel-container .search-bar button:hover {
+  background-color: #095209;
+}

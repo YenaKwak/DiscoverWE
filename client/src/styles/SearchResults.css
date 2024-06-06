@@ -1,0 +1,145 @@
+/* Stili Generali */
+.search-bar {
+  display: none;
+}
+
+#search-filter-wrap {
+  width: 100%;
+}
+
+#search-filter-wrap svg {
+  color: green;
+}
+
+.filter-section {
+  margin-top: 20px;
+}
+
+.filter-section h4,
+.filter-header p {
+  margin-bottom: 20px;
+  color: rgb(3, 106, 3);
+}
+
+.filter-section .form-group {
+  margin-bottom: 20px;
+}
+
+.results-section {
+  margin-top: 20px;
+}
+
+.results-section p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.tour-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #000000;
+  margin: 20px 0;
+}
+
+.select-region-option {
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.result-caption-text {
+  justify-content: center;
+  text-align: end;
+}
+
+/* Stili del Filtro Recensioni */
+.review-filter .star-rating {
+  display: flex;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.review-filter .star-rating.selected {
+  border: 2px solid green;
+  border-radius: 4px;
+}
+
+/* Stili dell'Accordion */
+.accordion-button:not(.collapsed) {
+  background-color: rgba(96, 206, 96, 0.173);
+  color: rgb(0, 0, 0);
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-button::after {
+  filter: invert(1);
+}
+
+.accordion-body,
+.filter-header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Stili del Cursore Personalizzato */
+.custom-slider {
+  width: 10em;
+  height: 25px;
+  margin: 10px 0;
+}
+
+.custom-slider .thumb {
+  background-color: green;
+  border: 2px solid green;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.custom-slider .track {
+  background: #ddd;
+  height: 10px;
+  border-radius: 5px;
+}
+
+.price-range-values {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+/* Stili dei Contenitori */
+#price-range-bar-container {
+  width: 10em;
+}
+
+#price-range-values-container,
+#form-location-container,
+#review-filter-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Stili del Menu a Discesa */
+select:focus {
+  border-color: green !important;
+  box-shadow: 0 0 0 0.25rem rgba(0, 128, 0, 0.25) !important;
+}
+
+select:focus option:checked {
+  background-color: rgba(199, 191, 191, 0.277) !important;
+}
+
+/* Stili dell'Accordion Recensioni */
+#review-accordion {
+  padding: 15px 0px 5px 0px;
+}

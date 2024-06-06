@@ -1,0 +1,146 @@
+/* Stili della carta del tour */
+.tour-card {
+  display: flex;
+  flex-direction: row;
+  border-radius: 8px;
+  border: none;
+}
+
+.tour-carousel-inner {
+  width: 40%;
+  margin-right: 15px;
+  position: relative;
+}
+
+.tour-carousel-inner img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  cursor: zoom-in;
+}
+
+.card-body {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title-region {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.region-tag,
+.tour-tag {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 12px;
+  margin: 5px 5px 5px 0;
+}
+
+.tour-rating {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  justify-content: space-between;
+}
+
+.tour-stars {
+  display: flex;
+  align-items: center;
+}
+
+.tour-reviews {
+  margin-left: 5px;
+}
+
+.tour-button-group {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  margin-right: 10px;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #000000;
+  margin: 20px 0;
+}
+
+/* Stili dei controlli del carosello */
+.carousel-control-prev,
+.carousel-control-next,
+.modal-carousel-control-prev,
+.modal-carousel-control-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.carousel-control-prev,
+.modal-carousel-control-prev {
+  left: 10px;
+}
+
+.carousel-control-next,
+.modal-carousel-control-next {
+  right: 10px;
+}
+
+.tour-carousel-inner:hover .carousel-control-prev,
+.tour-carousel-inner:hover .carousel-control-next {
+  display: flex;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  display: none;
+}
+
+/* Stili del contenitore delle immagini del modal */
+.modal-image-container {
+  position: relative;
+}
+
+.modal-image-container img {
+  width: 100%;
+}
+
+/* Stili del modal delle recensioni */
+.reviews-modal-body {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.user-info-reviews {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.user-info-reviews strong {
+  font-size: 1.1em;
+}
+
+.review-item {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
