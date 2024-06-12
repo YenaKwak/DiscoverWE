@@ -37,6 +37,14 @@ export const getReviewsByTour = async (req, res) => {
 
     const updatedReviews = await Promise.all(
       reviews.map(async (review) => {
+        if (!review.user) {
+          return {
+            ...review,
+            user: "Unknown User",
+            bookingDate: "No booking date",
+          };
+        }
+
         // Trovare la prenotazione utilizzando l'utente e il tour della recensione
         const booking = await Booking.findOne({
           user: review.user._id, // ID dell'utente che ha scritto la recensione
